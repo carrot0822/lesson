@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<encryption xmlns="urn:oasis:names:tc:opendocument:xmlns:container" xmlns:enc="http://www.w3.org/2001/04/xmlenc#">
+    <enc:EncryptionKey id="KEY">
+        <enc:EncryptionMethod Algorithm="RSA" Version="1.0"/>
+        <zy:KeyInfo>
+            <Proprietary>ZhangYue.Inc</Proprietary>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <CipherValue>fDH1+2kBcYTKcC3rxsN4/3p4ugJx4rtpPhC30Lo2eGRW/gzOSId1slZD1uuSXgLBcEwiF78vFQVoVEe7EBf/r2m2f/URt5fYzsEvDUyIySc/xRR5XXWy5Jn8osvADx6o+MU6SmoiNJ8W53gJ7Fq92J2zD3Z39NeITVso1yf+Csw=</CipherValue>
+        </enc:CipherData>
+    </enc:EncryptionKey>
+    
+    <enc:EncryptedData id="DATA0">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="META-INF/container.xml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA1">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="META-INF/zhangyue-expansion.xml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA2">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/content.opf"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA3">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/copyright.jpg"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA4">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/cover.jpg"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA5">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/coverpage.jpg"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA6">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/image1.png"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA7">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/note-original.png"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA8">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/t1.png"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA9">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/t2.png"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA10">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/t3.png"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA11">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Images/zy-cover-logo.png"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA12">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Misc/DS_Store"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA13">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Styles/stylesheet.css"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA14">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter10.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA15">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter11.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA16">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter12.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA17">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter13.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA18">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter14.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA19">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter15.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA20">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter16.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA21">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter17.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA22">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter18.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA23">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter19.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA24">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter19_0001.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA25">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter20.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA26">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter21.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA27">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter22.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA28">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter23.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA29">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter24.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA30">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter25.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA31">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter26.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA32">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter27.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA33">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter28.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA34">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter29.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA35">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter3.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA36">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter30.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA37">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter31.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA38">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter32.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA39">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter33.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA40">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter34.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA41">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter35.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA42">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter4.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA43">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter5.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA44">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter6.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA45">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter7.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA46">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter8.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA47">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/chapter9.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA48">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/copyright.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA49">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/Text/cover.xhtml"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+    <enc:EncryptedData id="DATA50">
+        <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-ctr"/>
+        <zy:KeyInfo>
+            <zy:RetrievalMethod URI="#KEY" Type="http://www.w3.org/2001/04/xmlenc#EncryptionKey"/>
+        </zy:KeyInfo>
+        <enc:CipherData>
+            <enc:CipherReference URI="OEBPS/toc.ncx"/>
+        </enc:CipherData>
+    </enc:EncryptedData>
+    
+</encryption>

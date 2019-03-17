@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;	
+}
+
+body{
+	background-color:#F5F5F5;	
+}
+.top{
+	width:100%;
+	height:27px;
+	background:url(../image/top_bg.jpg) repeat-x
+}
+top_content{
+	width:1000px;
+	margin:0 auto;	
+}
+.top_content li{	
+	list-style-image:url(../image/li_bg.gif) ;/*这个属性？*/
+	float:right;
+	width:70px;
+	line-height:27px;
+}
+/*a hove伪类有点忘记了*/
+.top_content a:link,.top_content a:visited{	
+	color:#8e8e8e;
+	text-decoration:none;
+}
+.top_content a:hover,.top_content a:active{	
+	color:#900;
+	text-decoration:none;
+}
+/*logo部分开始了*/
+.wrap{
+	width:1000px;
+	margin:0 auto;	
+}
+.logo{
+	height:80px;
+	background:#FFF;
+		
+}
+.logo_left{
+	width:200px;
+	float:left;	
+}
+.logo_right{
+	float:right;	
+	height:28px;
+	margin-top:30px;
+	color:#8e8e8e;
+}
+.logo_right img{	
+	vertical-align:middle;
+	margin-right:10px;
+}
+.tel{
+	font-family:"微软雅黑";
+	font:-size:16px;
+	color:#C00;
+	
+}
+/*navi开始了*/
+.navi{
+	height:40px;
+}
+.navi_left{	
+	width:10px;
+	background:url(../image/nav_left.jpg) no-repeat;
+	
+}
+.navi_mid{
+	width:980px;
+	background:url(../image/nav_bg.jpg) repeat-x;
+	
+}
+.navi_right{	
+	background:url(../image/nav_right.jpg) no-repeat;
+	width:10px;
+	
+}
+.navi_left,.navi_right,.navi_mid{
+	float:left;
+	height:40px;	
+}
+.navi_mid_left{	
+	width:680px;
+}
+.navi_mid_right{	
+	width:300px;
+	float:right;
+}
+.navi_mid_left li{
+	float:left;
+	list-style-type:none;
+	width:100px;/*为什么我在别处实验会缩在一起？*/
+	text-align:center;
+	line-height:40px;
+}
+.navi_mid_left a:link , .navi_mid_left a:visited{	
+	text-decoration:none;
+	color:#fff;
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+.navi_mid_left a:hover,.navi_mid_left a:active{	
+	text-decoration:none;
+	color:#FF0;
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+.search_text{	
+	width:190px;
+	height:25px;
+	margin-top:5px;
+	background:url(../image/search.jpg) no-repeat right center;
+	background-color:#FFF;
+	padding-right:25px;/*padding的妙用 搜索图片按道理讲是要被抵消的 我们用padding的内容来制止这种行为*/
+	border:1px solid #fff;
+}
+/*到这一步主动设置宽度的有哪些？他们具备了什么样的特征？主动设置边框的又有哪些*/
+
+.ad{
+	height:310px;
+	overflow:hidden;/*??*/
+		
+}
+.main{
+	height:250px;
+	background-color:#FFF;	
+	margin-top:5px;
+}
+.news{
+	width:340px;
+	border:1px solid #E8E8E8;	
+	
+}
+.course{
+	width:410px;
+	border:1px solid #E8E8E8;	
+	margin:0 7px;
+	
+}
+.sidebar{
+	width:230px;	
+	
+}
+.news,.sidebar,.course{
+	float:left;
+	height:250px;
+}
+/*这里的margin7px是有讲究的 那需要考量的2px来自于浮动的影响 最右侧的2px虽然没边框但依然要空出2px给他
+才怪？ 8px设置也没事...只要满足浮动的要求就行了 1px估计也是看不出来的。。 这里浮动影响应该要清理下吧*/
+.title{	
+	height:35px;
+	border-bottom:2px solid #E8E8E8;
+}
+.title_left{
+	width:70%;
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:bold;	
+	color:#786f66;
+	float:left;
+	line-height:35px;
+	margin-left:20px;
+}
+.title_right{
+	width:20%;
+	float:right;
+	line-height:35px;
+	text-align:right;
+	padding-right:10px;
+}
+.title a{
+	text-decoration:none;	
+}
+.pic_news{
+	height:80px;
+	margin-top:10px;	
+	line-height:22px;
+}
+.pic_news img,.course_pic img{	
+	float:left;
+	margin:0 5px;
+}
+.pic_news a,.course_pic a{	
+	color:#c00;
+	text-decoration:none;
+}
+.news_list{
+	margin-top:20px;	
+}
+.news_list li{
+	list-style-type:none;
+	background:url(../image/list.jpg) no-repeat;
+	padding-left:10px;
+	margin:8px;
+	border-bottom:1px solid #CCC;
+}
+.news_list a:link,.news_list a:visited{
+	text-decoration:none;
+	color:#000;	
+}
+.news_list a:hover,.news_list a:active{	
+	text-decoration:none;
+	color:#F00;
+}
+.news_list span{
+	float:right;
+	color:#999;	
+}/*IE打出GG 错位要把新闻标题左侧*/
+/*ul里可以设置的属性 以及li里可设置的属性*/
+.course_pic{
+	height:120px;
+	margin-top:10px;
+	
+	
+}
+.course_type{
+	margin:20px auto;
+	height:37px;
+	width:372px;
+	background:url(../image/product_type_bg.jpg) no-repeat;
+}
+.course_type li{
+	list-style-type:none;
+	float:left;
+	line-height:37px;
+	margin:0 15px;
+	text-align:center;	
+}
+
+.video{	
+	height:185px;
+	border:1px solid #E8E8E8;
+}
+.video_content{	
+	height:55px;
+	
+}
+.sidebar_ad{
+	height:55px;
+	border:1px solid #E8E8E8;	
+	margin-top:10px;
+}
+
+/*下方版权方开始*/
+
+.copyright{
+	width:100%;
+	height:200px;
+	background-color:#E8E8E8;	
+	margin-top:10px;
+	clear:both;/*不被其他浮动元素影响*/
+}
+.copyright_content{
+	width:1000px;
+	margin:0 auto;	
+	padding-top:20px;
+}
+.copyright_content li{
+	list-style-type:none;
+	float:left;
+	width:200px;
+	background:url(../image/line.png) no-repeat right center;
+	text-align:center;
+	line-height:30px;
+	font-family:"微软雅黑";
+}
+.copyright_content a{
+	text-decoration:none;
+	color:#999;
+	font-size:18px;	
+}
+.copyright_content li ul li a{	
+	font-size:14px;
+}
+
+.list_main{
+	min-height:350px;/*这才是最外层的盒子 与其他盒子的关系维持全靠他*/
+	_height:350px;
+	background-color:#FFF;
+	margin-top:10px;	
+}
+.news_type{
+	width:220px;
+	min-height:350px;
+	border:1px solid #E8E8E8;
+	
+	float:left;
+}
+.list_box{
+	width:770px;
+	min-height:350px;/*IE6不支持*/
+	_height:350px;
+	background-color:#FFF;
+	border:1px solid #E8E8E8;	
+	float:right;
+}
+
+.news_type_h2{	
+	height:35px;
+	line-height:35px;
+	font-family:"微软雅黑";
+	font-size:35px;
+	color:#666;
+	background:url(../image/titile_bg.gif) repeat-x;
+	padding-left:20px;
+}
+.news_type_content{
+	height:365px;
+	background:url(../image/content_bg.gif) repeat-x;
+}
+.news_type_content li{
+	list-style-type:none;
+	height:30px;
+	line-height:30px;
+	
+}
+.news_type_content li a{	
+	color:#666;
+	text-decoration:none;
+	background:url(../image/li_bg.gif) no-repeat left center;
+	padding-left:15px;
+	display:block
+}
+
+.news_type_content li a:hover{
+	color:#009cdf;
+	background:url(../image/li_bg2.gif)	 no-repeat left center;
+	background-color:#F2F2F2;
+	display:blcok;
+}
+.list_box h2{
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#666;
+	height:35px;
+	line-height:35px;
+	background:url(../image/type_bg.png) repeat-x;
+	padding-left:20px;	
+}
+.page{
+	height:40px;
+	margin-top:40px;
+	text-align:center;	
+}
+.page a{
+	display:inline-block;/*???*/
+	border:1px solid #E8E8E8;
+	text-decoration:none;
+	margin:5px;
+	padding:5px 10px;	
+}
+.page a:link,.page a:visited{
+	color:#000;
+		
+}
+.page a:hover,.page a:active{
+	color:#FFF;
+	background-color:#cc1b1b;	
+}
+.list_box h1{
+	font-family:"微软雅黑";
+	font-size:20px;
+	text-align:center;
+	margin:10px 0px;	
+}
+
+.list_box_newsInfo{
+	color:#666;
+	text-align:center;
+	border-bottom:1px dotted #666;	
+}
+.list_box_newsContent{
+	font-size:14px;
+	padding:20px;
+	line-height:25px;
+	text-indent:2em;	
+}

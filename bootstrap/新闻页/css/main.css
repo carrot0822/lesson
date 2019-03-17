@@ -1,0 +1,132 @@
+img{
+	display: block;
+	max-width: 100%;/*限制图片宽度*/
+	border-radius: 3px;
+}
+a{
+	
+}
+/*通用圆角*/
+img,.side-bar .list-group-item,.side-bar-card{
+	border-radius: 3px;
+}
+/*导航栏*/
+.navbar-brand{
+	background-image: url(../img/logo.png) ;
+	width: 50px;
+	background-size: 75%;
+	background-repeat: no-repeat ;
+	background-position: center center;
+}
+/*侧边栏*/
+.side-bar .list-group-item{
+	border: 0;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+.side-bar .list-group-item.active{
+	background-color: #ea0c3c;
+}
+/*新闻版块*/
+.news-list-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.news-list-item:first-child{
+	padding-top: 0;
+}
+.news-list-item .title{
+	display: block;
+	color: #444444;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+.news-list-item .info{
+	color: #888;
+}
+.news-list-item .info .avatar{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+}
+/*右侧栏*/
+.side-bar-card{
+	background: rgba(0,0,0,.05);
+	margin-top: 15px;
+	padding: 10px 0;
+}
+.side-bar-card.flag{
+	padding: 20px 0;
+}
+.side-bar-card .text-lg{
+	font-size: 150%;
+}
+.side-bar-card .card-title{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.side-bar-card .card-body{
+	
+}
+.side-bar-card .card-title,
+.side-bar-card .card-body .list .item{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.side-bar-card .card-body .list .item:hover{
+	background: rgba(0,0,0,.05);
+}
+.side-bar-card .card-body .list .item .title{
+	
+	padding-bottom: 5px;
+}
+.side-bar-card .card-body .list .item .desc{
+	color: #999999;
+}
+/*这里是news页面的样式了*/
+.news-title{
+	line-height: 1.3;
+}
+.news-status{
+	color: #999999;
+}
+.news-status .laber{
+	opacity: .8;
+}
+.news-content {
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.news-content img{
+	margin:10px 0;
+}
+/*尾部*/
+.footer{
+	margin-top: 20px;
+	padding: 20px 0;
+	text-align: center;
+	color: #999999;
+}
+/*登录注册相关*/
+.container-small{
+	max-width: 500px;
+}
+/*手机端兼容*/
+#toggle-checkbox:checked ~div{
+	display: block !important;
+}
+#toggle-label{
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 13px;
+	font-size: 16px;
+	font-weight: normal;
+	display: none;
+}

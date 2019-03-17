@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,ol{
+	margin:0;
+	padding:0;}
+body{
+	background-color:#eee;
+	font:1em "microsoft Yahei";
+	color:#333;
+	}
+a{
+	color:#999;
+	text-decoration:none;}
+a:hover{
+	color:#666;}
+li{
+	list-style:none;}
+h1,p{
+	text-align:center;
+	line-height:1.8;}
+.banner { position: relative; overflow: hidden;width:1200px;height:300px;margin:0 auto;cursor:pointer; }
+.banner ul li { float: left; }
+.banner ul li img{width:100%;display:block;}
+.dots{position:absolute;width:100%;bottom:20px;text-align:center;}  
+.dot{  
+    display:inline-block;  
+    width: 12px;  
+    height: 12px;  
+    font-size: 0px;  
+    line-height: 0px;  
+    margin-right: 12px;  
+    cursor: pointer;  
+    background-color: #ffffff;  
+    border-radius: 50%;  
+}  
+.dot.active{background-color: #5EB309;}  
+.unslider-arrow{
+	position:absolute;width:80px;height:100%;top:0;font-size:0;text-indent:-999em;}
+.prev{
+	left:0;
+	background:url(../images/left_arrow.svg) no-repeat center center;}
+.prev:hover{
+	background-image:url(../images/left_arrowhover.svg);
+	}
+.next{
+	right:0;
+	background:url(../images/right_arrow.svg) no-repeat center center;}
+.next:hover{
+	background-image:url(../images/right_arrowhover.svg);}

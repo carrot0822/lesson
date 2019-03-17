@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.bili-header-m, .bili-header-m article, .bili-header-m aside, .bili-header-m blockquote, .bili-header-m button, .bili-header-m code, .bili-header-m dd, .bili-header-m details, .bili-header-m dl, .bili-header-m dt, .bili-header-m fieldset, .bili-header-m figcaption, .bili-header-m figure, .bili-header-m footer, .bili-header-m form, .bili-header-m h1, .bili-header-m h2, .bili-header-m h3, .bili-header-m h4, .bili-header-m h5, .bili-header-m h6, .bili-header-m header, .bili-header-m hgroup, .bili-header-m hr, .bili-header-m input, .bili-header-m legend, .bili-header-m li, .bili-header-m menu, .bili-header-m nav, .bili-header-m ol, .bili-header-m p, .bili-header-m pre, .bili-header-m section, .bili-header-m td, .bili-header-m textarea, .bili-header-m th, .bili-header-m ul,body,p ,h3,li,ul{
+    margin: 0;
+    padding: 0;
+}
+a,div, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-word;
+}
+
+.center{
+	margin: 0 auto;
+}
+input, textarea {
+    outline: none;
+}
+ul li{
+	list-style-type:none;	
+}
+label {
+	cursor: default;
+}
+a{
+	text-decoration:none;
+	transition: color .2s;
+	outline: 0;
+	color: #00a1d6;
+	text-decoration: none;
+	cursor: pointer;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: color .2s ease,background-color .2s ease;
+    -o-transition: color .2s ease,background-color .2s ease;
+    transition: color .2s ease,background-color .2s ease;
+}
+
+a:hover{
+	color:#f25d8e;	
+}
+img{
+	border:0;
+	vertical-align:middle;	
+}
+input, button, select, textarea {
+outline: 0;
+}
+
+　.clearfix{
+
+　　　　　　zoom:1;
+
+　　　　}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;	
+}
+body, button, input, select, textarea {
+font: 12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+
+.fl{
+	float:left;	
+}
+.fr{
+	float:right;
+	
+}
+/*公用样式*/
+.icon {
+	display: inline-block;
+	background-image: url(../images/icons.png);
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	
+}
+.icon_t{
+	width:40px;
+	height:40px;
+	margin-right:10px;
+	vertical-align:middle;/*?*/
+	float:left;
+	margin-top:-10px;	
+}
+
+/*小视频预览公用样式*/
+/*这只是下面的的弹幕组*/
+/*
+.spread-module .num{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: 20px;
+	line-height: 20px;
+	color: #99a2aa;
+	background-color: #fff;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	font-size: 0;	
+}
+.spread-module .num span{
+	line-height: 12px;
+	height: 14px;
+	display: inline-block;
+	width: 50%;
+	overflow: hidden;
+	font-size: 12px;
+	vertical-align: bottom;	
+}
+.spread-module .num .play .icon{
+	background-position:-282px -90px;	
+}
+.spread-module .num .danmu .icon{
+	background-position:-282px -218px;	
+}
+.spread-module .num i{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	vertical-align:top;
+	margin-right:5px;	
+}
+*/

@@ -1,0 +1,354 @@
+.header{
+ 
+	width: 100%;
+	
+}
+.navWrapper{
+	width: 1200px;
+	height: 62px;
+	padding: 19px 0;
+	margin: 0 auto;
+}
+.logo{
+	width: 221px;
+	height: 62px;
+}
+.nav-item{
+	text-align: center;
+	height: 62px;
+	line-height: 62px;
+	background-color: #fff;
+}
+.nav-item .t{
+	font-family: MicrosoftYaHei;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #333333;
+	height: 100%;
+	display: block;
+	padding: 0 19px;
+}
+.nav-item a:hover{
+	color: #2288f6;
+}
+.nav-item .active{
+	color: #2288f6;
+}
+.banner{
+	height: 440px;
+	width: 100%;
+	overflow: hidden;
+
+}
+.imgbox{
+	overflow: hidden;
+	height: 440px;
+}
+.banner ul li a{
+	display: inline-block;
+	height: 440px;
+}
+.banner img{
+	width: 100%;
+	height: 440px;
+}
+.sectionWrapper{
+	width:1234px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	text-align: center;
+}
+.OurSever{
+	
+	background-color: #fafafa;
+	padding-top:64px;
+	padding-bottom: 60px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.title-line{
+	width: 1000px;
+    height: 24px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.title-line .tit{
+	height: 48px;
+    line-height: 48px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 24px;
+    text-align: center;
+    font-size: 24px;
+    background-color:#fafafa ;
+    font-family: MicrosoftYaHei-Bold;
+	
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 1px;
+	color: #333333;
+}
+.shopcmd {
+	padding-top: 24px;
+	padding-bottom: 50px;
+	width: 842px;
+	/*height: 38px;文字内容不定高 margin好像无效 */
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.introduceImg{
+	width: 1054px;
+	margin: 0 auto;
+	
+}
+.Imgcontainer{
+	width: 320px;
+	height: 510px;
+	background-color: #ffffff;
+	border: solid 1px #e7e8e9;
+	padding-bottom: 60px;
+	padding-top: 42px;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+.Imgcontainer img{
+	margin-bottom: 44px;
+	height:130px;
+}
+.Imgcontainer .TextCon{
+	width: 235px;
+	margin:0 auto;
+	margin-bottom: 40px;
+	
+}
+.Imgcontainer h2{
+	/*字体定宽就会让居中失效了？*/
+	font-family: MicrosoftYaHei;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #333333;
+	text-align: center;
+	margin-bottom: 19px;
+}
+.Imgcontainer p{
+	text-align: justify;
+	height: 112px;
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.Imgcontainer .button{
+	display: inline-block;
+	width: 150px;
+	height: 38px;
+	background-color: #ffffff;
+	border-radius: 4px;
+	border: solid 1px #ff9412;
+	color:#ff9412;
+	text-align: center;
+	line-height:38px;/*设置行高 如果区域有空余就需要细调 未知*/
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ff9412;
+}
+.Imgcontainer .button:hover{
+	background-color: #ff9412;
+	color:#FFFFFF;
+}
+.Imgcontainer.fl.second {
+    margin: 0 47px;
+}
+.ClassCase{
+	
+	background-color: #fff;
+	padding-top: 64px;
+	padding-bottom: 60px;
+}
+.tit2{
+	height: 48px;
+    line-height: 48px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 24px;
+    text-align: center;
+    font-size: 24px;
+    background-color:#FFFFFF ;
+    font-family: MicrosoftYaHei-Bold;
+	
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 1px;
+	color: #333333;
+}
+/*第二个轮播图*/
+.loop2{
+	width: 1233px;
+	height: 210px;
+	padding-top: 50px;
+	position: relative;
+	margin:0 auto ;
+	text-align: center;
+}
+.loop2 .pre{
+	display:inline-block;
+	height: 60px;
+	line-height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	background-color: #e6e6e6;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.loop2 .next{
+	display:inline-block;
+	height: 60px;
+	line-height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	background-color: #e6e6e6;
+	font-size: 24px;
+	color: #FFFFFF;
+	
+}
+.loop2 .pre,.loop2 .next:hover{
+	background-color: #57e9af;
+}
+.loop2 .pic-box{
+	margin:  0 auto;
+	width: 1100px;
+	height: 210px;
+	overflow: hidden;
+}
+.loop2 .pic-img{
+	float: left;
+	margin-left: 40px;
+	width: 325px;
+	height: 212px;
+}
+.loop2 .pic-img a{
+	display: inline-block;
+	width: 325px;
+	height: 212px;
+	position: relative;
+}
+
+.loop2 .pic-img a img{
+	width: 325px;
+	height: 212px;
+}
+.PicText{
+	position: absolute;
+	bottom:0;
+	width: 325px;
+	height: 46px;
+	line-height: 46px;
+	background: rgba(0,0,0,.3);
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.loop2 .mask{
+	background-color: rgba(0,0,0,.8);
+	opacity: 0;
+	position: absolute ;
+	z-index: 4;
+	width: 325px;
+	height: 212px;
+	top: 0;
+}
+.loop2 .pic-img a:hover .mask{
+	opacity: 1;
+}
+/*合作媒体*/
+.Media{
+	padding-top: 64px;
+	background-color: #fafafa;
+	padding-bottom: 200px;
+}
+.tableMedia{
+	padding-top: 50px;
+	width: 1096px;
+	margin: 0 auto;
+	 
+}
+.tableMedia th{
+	width: 220px;
+    height: 82px;
+    text-align: center;
+}
+.footer{
+	
+	background-color: #212425;
+	box-sizing:border-box;
+	padding-bottom: 58px;
+	padding-top: 50px;
+}
+.footerCon{
+	width: 1070px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer-item{
+	float: left;
+}
+.about{
+	color: #FFFFFF;
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 19px;
+	letter-spacing: 0px;
+	color: #f0f1f1;
+	margin-bottom: 22px;
+}
+.about a{
+	padding: 0 10px;
+	height: 15px;
+	
+}
+.about a:hover{
+	text-decoration: underline;
+	color: #2288f6;
+}
+.copyright{
+	height: 15px;
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 31px;
+	letter-spacing: 0px;
+	color: #888888;
+}
+
+/*哪一些是内部属性 哪一些是外部属性
+ * 外层 外层属性
+ * 内层 内层属性
+ 不是最好一层直属元素 一般定义的都是位置 宽高 背景颜色 对文字的影响 居中 颜色 行高 还有啥？
+ 另外要确认那些定宽 那些不定  这里的错误就是padding可能会影响到整体的高度 只能用box-sizeing弥补
+/*只有最里面一层才是定具体信息的 外面都是盒子位置和大小*/
